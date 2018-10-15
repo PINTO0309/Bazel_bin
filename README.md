@@ -21,7 +21,7 @@ $ ./install.sh
 /usr/local/bin
 ```
 
-## Execution Exmaple
+## Execution exmaple
 ```
 $ cd tensorflow
 $ ./configure
