@@ -13,6 +13,8 @@ $ git clone https://github.com/PINTO0309/Bazel_bin.git
 $ cd Bazel_bin/0.17.2/Raspbian_armhf
 or
 $ cd Bazel_bin/0.17.2/Ubuntu1604_x86_64
+or
+$ cd Bazel_bin/0.17.2/Ubuntu1604_aarch64
 
 $ ./install.sh
 ```
