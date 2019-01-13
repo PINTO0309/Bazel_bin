@@ -39,7 +39,7 @@ $ sudo bazel build --config opt --local_resources 1024.0,0.5,0.5 \
 //tensorflow/tools/pip_package:build_pip_package
 ```
 
-## 
+## Supplement - Steps for building Bazel
 ```
 $ cd ~
 $ mkdir bazel;cd bazel
