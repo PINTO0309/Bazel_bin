@@ -38,3 +38,30 @@ $ sudo bazel build --config opt --local_resources 1024.0,0.5,0.5 \
 --host_copt=-DRASPBERRY_PI \
 //tensorflow/tools/pip_package:build_pip_package
 ```
+
+## Supplement - Steps for building Bazel
+```
+$ cd ~
+$ mkdir bazel;cd bazel
+$ wget https://github.com/bazelbuild/bazel/releases/download/0.17.2/bazel-0.17.2-dist.zip
+$ unzip bazel-0.17.2-dist.zip
+
+#==== Only RaspberryPi ============================================================
+$ nano bazel/scripts/bootstrap/compile.sh
+
+#################################################################################
+  run "${JAVAC}" -classpath "${classpath}" -sourcepath "${sourcepath}" \
+      -d "${output}/classes" -source "$JAVA_VERSION" -target "$JAVA_VERSION" \
+      -encoding UTF-8 ${BAZEL_JAVAC_OPTS} "@${paramfile}"
+#################################################################################
+↓
+#################################################################################
+  run "${JAVAC}" -classpath "${classpath}" -sourcepath "${sourcepath}" \
+      -d "${output}/classes" -source "$JAVA_VERSION" -target "$JAVA_VERSION" \
+      -encoding UTF-8 ${BAZEL_JAVAC_OPTS} "@${paramfile}" -J-Xmx500M
+#################################################################################
+#==== Only RaspberryPi ============================================================
+
+$ sudo bash ./compile.sh   #<--- Execute it directly under the bazel folder
+$ sudo cp output/bazel /usr/local/bin   #<--- Always execute after completion of build
+```
