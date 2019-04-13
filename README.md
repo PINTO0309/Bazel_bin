@@ -47,7 +47,7 @@ $ wget https://github.com/bazelbuild/bazel/releases/download/0.17.2/bazel-0.17.2
 $ unzip bazel-0.17.2-dist.zip
 
 #==== Only RaspberryPi ============================================================
-$ nano bazel/scripts/bootstrap/compile.sh
+$ nano scripts/bootstrap/compile.sh
 
 #################################################################################
   run "${JAVAC}" -classpath "${classpath}" -sourcepath "${sourcepath}" \
