@@ -42,6 +42,7 @@ $ sudo bazel build --config opt --local_resources 1024.0,0.5,0.5 \
 ## Supplement - Steps for building Bazel
 ### Example: 0.19.2 or less
 ```bash
+$ sudo apt-get install build-essential openjdk-8-jdk python zip unzip
 $ cd ~
 $ mkdir bazel;cd bazel
 $ wget https://github.com/bazelbuild/bazel/releases/download/0.19.2/bazel-0.19.2-dist.zip
@@ -69,6 +70,7 @@ $ sudo cp output/bazel /usr/local/bin   #<--- Always execute after completion of
 
 ### Example: 0.20.0 or more
 ```bash
+$ sudo apt-get install build-essential openjdk-8-jdk python zip unzip
 $ cd ~
 $ mkdir bazel;cd bazel
 $ wget https://github.com/bazelbuild/bazel/releases/download/0.24.1/bazel-0.24.1-dist.zip
