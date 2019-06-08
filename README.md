@@ -71,11 +71,19 @@ $ sudo cp output/bazel /usr/local/bin   #<--- Always execute after completion of
 ### Example: 0.20.0 or more
 ```bash
 $ sudo apt-get install build-essential openjdk-8-jdk python zip unzip
+
+$ wget https://github.com/PINTO0309/Tensorflow-bin/raw/master/zram.sh
+$ chmod 755 zram.sh
+$ sudo mv zram.sh /etc/init.d/
+$ sudo update-rc.d zram.sh defaults
+$ sudo reboot
+
 $ cd ~
 $ mkdir bazel;cd bazel
 $ wget https://github.com/bazelbuild/bazel/releases/download/0.24.1/bazel-0.24.1-dist.zip
 $ unzip bazel-0.24.1-dist.zip
 $ env EXTRA_BAZEL_ARGS="--host_javabase=@local_jdk//:jdk"
+
 
 #==== Only RaspberryPi ============================================================
 $ nano compile.sh
