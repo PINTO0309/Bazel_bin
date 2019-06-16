@@ -72,11 +72,13 @@ $ sudo cp output/bazel /usr/local/bin   #<--- Always execute after completion of
 ```bash
 $ sudo apt-get install build-essential openjdk-8-jdk python zip unzip
 
+#==== Do not run on aarch64. Device operation becomes unstable. ===================
 $ wget https://github.com/PINTO0309/Tensorflow-bin/raw/master/zram.sh
 $ chmod 755 zram.sh
 $ sudo mv zram.sh /etc/init.d/
 $ sudo update-rc.d zram.sh defaults
 $ sudo reboot
+#==== Do not run on aarch64. Device operation becomes unstable. ===================
 
 $ cd ~
 $ mkdir bazel;cd bazel
