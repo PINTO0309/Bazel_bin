@@ -3,7 +3,7 @@ Bazel's prebuilt binary storehouse.
 
 RaspberryPi3 ... Raspbian_armhf  
 Ubuntu1604 ... Ubuntu1604_x86_64  
-TX2 ... Ubuntu1604_aarch64  
+Ubuntu1604/TX2 ... Ubuntu1604_aarch64  
 
 ## Usage
 ```bash
