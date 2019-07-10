@@ -16,6 +16,10 @@ $ cd Bazel_bin/0.17.2/Ubuntu1604_x86_64
 or
 $ cd Bazel_bin/0.17.2/Ubuntu1604_aarch64
 
+$ sudo apt-get install -y openjdk-8-jdk
+or
+$ sudo apt-get install -y openjdk-11-jdk
+
 $ ./install.sh
 ```
 
