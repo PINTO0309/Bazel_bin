@@ -72,7 +72,7 @@ $ sudo bash ./compile.sh   #<--- Execute it directly under the bazel folder
 $ sudo cp output/bazel /usr/local/bin   #<--- Always execute after completion of build
 ```
 
-### Example: 0.20.0 or more
+### Example: 0.20.0 - 0.24.1
 ```bash
 $ sudo apt-get install build-essential openjdk-8-jdk python zip unzip
 
