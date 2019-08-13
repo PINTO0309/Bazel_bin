@@ -15,11 +15,17 @@ or
 $ cd Bazel_bin/0.17.2/Ubuntu1604_x86_64
 or
 $ cd Bazel_bin/0.17.2/Ubuntu1604_aarch64
-
+```
+```bash
 $ sudo apt-get install -y openjdk-8-jdk
 or
 $ sudo apt-get install -y openjdk-11-jdk
+```
+or
+**[How to install openjdk-8-jdk on Debian Buster (Debian 10) armhf](https://qiita.com/PINTO/items/5445c5e899f68d928f0d)**
 
+
+```bash
 $ ./install.sh
 ```
 
