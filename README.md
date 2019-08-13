@@ -147,7 +147,7 @@ $ sudo reboot
 
 $ cd ~
 $ mkdir bazel;cd bazel
-$ wget https://github.com/bazelbuild/bazel/releases/download/0.24.1/bazel-0.26.1-dist.zip
+$ wget https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0.26.1-dist.zip
 $ unzip bazel-0.26.1-dist.zip
 $ env EXTRA_BAZEL_ARGS="--host_javabase=@local_jdk//:jdk"
 
