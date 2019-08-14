@@ -15,11 +15,19 @@ or
 $ cd Bazel_bin/0.17.2/Ubuntu1604_x86_64
 or
 $ cd Bazel_bin/0.17.2/Ubuntu1604_aarch64
-
+```
+```bash
 $ sudo apt-get install -y openjdk-8-jdk
 or
 $ sudo apt-get install -y openjdk-11-jdk
+```
+or  
+**[How to install openjdk-8-jdk on Raspbian Buster armhf](https://qiita.com/PINTO/items/a6ae8e04d382493ef369)**  
+or  
+**[How to install openjdk-8-jdk on Debian Buster (Debian 10) armhf](https://qiita.com/PINTO/items/5445c5e899f68d928f0d)**
 
+
+```bash
 $ ./install.sh
 ```
 
@@ -131,7 +139,7 @@ $ sudo cp output/bazel /usr/local/bin   #<--- Always execute after completion of
 ```
 
 ### Example: 0.26.1 or more
-
+**[How to install openjdk-8-jdk on Raspbian Buster armhf](https://qiita.com/PINTO/items/a6ae8e04d382493ef369)**  
 **[How to install openjdk-8-jdk on Debian Buster (Debian 10) armhf](https://qiita.com/PINTO/items/5445c5e899f68d928f0d)**  
 
 ```bash
