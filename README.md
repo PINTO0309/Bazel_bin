@@ -18,8 +18,6 @@ $ cd Bazel_bin/0.17.2/Ubuntu1604_aarch64
 ```
 ```bash
 $ sudo apt-get install -y openjdk-8-jdk
-or
-$ sudo apt-get install -y openjdk-11-jdk
 ```
 or  
 **[[Stable] Install openjdk-8-jdk safely in Raspbian Buster (Debian 10) environment](https://qiita.com/PINTO/items/612718c0ce4f1def6c6e)**  
