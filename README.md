@@ -22,11 +22,8 @@ or
 $ sudo apt-get install -y openjdk-11-jdk
 ```
 or  
-**[How to install openjdk-8-jdk on Raspbian Buster armhf](https://qiita.com/PINTO/items/a6ae8e04d382493ef369)**  
-or  
-**[How to install openjdk-8-jdk on Debian Buster (Debian 10) armhf](https://qiita.com/PINTO/items/5445c5e899f68d928f0d)**
-
-
+**[[Stable] Install openjdk-8-jdk safely in Raspbian Buster (Debian 10) environment](https://qiita.com/PINTO/items/612718c0ce4f1def6c6e)**  
+　　
 ```bash
 $ ./install.sh
 ```
