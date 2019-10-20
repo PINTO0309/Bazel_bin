@@ -136,8 +136,7 @@ $ sudo cp output/bazel /usr/local/bin   #<--- Always execute after completion of
 ```
 
 ### Example: 0.26.1 or more
-**[How to install openjdk-8-jdk on Raspbian Buster armhf](https://qiita.com/PINTO/items/a6ae8e04d382493ef369)**  
-**[How to install openjdk-8-jdk on Debian Buster (Debian 10) armhf](https://qiita.com/PINTO/items/5445c5e899f68d928f0d)**  
+**[[Stable] Install openjdk-8-jdk safely in Raspbian Buster (Debian 10) environment](https://qiita.com/PINTO/items/612718c0ce4f1def6c6e)**  
 
 ```bash
 $ sudo apt-get install build-essential openjdk-8-jdk python zip unzip
