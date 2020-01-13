@@ -2,7 +2,8 @@
 Bazel's prebuilt binary storehouse.
 
 RaspberryPi4/3 ... Raspbian_armhf / Debian_Buster_aarch64 / Ubuntu1604_aarch64 / Ubuntu1910_aarch64  
-Ubuntu1604 ... Ubuntu1604_x86_64 / Ubuntu1804_x86_64  
+Ubuntu1604 ... Ubuntu1604_x86_64  
+Ubuntu1804 ... Ubuntu1804_x86_64  
 TX2 ... Ubuntu1604_aarch64  
 
 ## Usage
